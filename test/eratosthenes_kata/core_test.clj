@@ -4,4 +4,6 @@
 
 (facts "about sieve"
   (fact "base case: 2"
-    (sieve 2) => [2]))
+    (sieve 2) => [2])
+  (fact "sieve of 3"
+    (sieve 3) => [2 3]))

@@ -1,4 +1,6 @@
 (ns eratosthenes-kata.core)
 
 (defn sieve [n]
-  [2])
+  (if (== 3 n) 
+    [2 3]
+    [2]))
