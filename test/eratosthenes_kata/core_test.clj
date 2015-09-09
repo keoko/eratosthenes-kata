@@ -11,3 +11,5 @@
     (sieve 5) => [2 3 5])
   (fact "sieve of 11 - remove composite of 2 and 3"
     (sieve 11) => [2 3 5 7 11]))
+  (fact "sieve of 30 - remove muliple composite"
+    (sieve 30) => [2 3 5 7 11 13 17 19 23 29])
